@@ -79,6 +79,12 @@
             transform: scale(1.1); /* Aumenta ligeiramente o tamanho do link */
         }
 
+        footer {
+            position: static; /* Garante que ele fique no fluxo normal da página */
+            bottom: 0;
+            width: 100%; /* Faz com que ocupe a largura total */
+        }
+
     </style>
 </head>
 <body>
@@ -242,8 +248,8 @@
             </div>
         </div>
     </div>
-<footer class="bg-dark text-white text-center py-3">
-    2024&copy; Traabalho de curso - Alessandra Mairis
+<footer class="bg-dark text-white text-center py-3 static-bottom">
+    2024&copy; Trabalho de curso - Alessandra Mairis
 </footer>
 
     <script src="lib/bootstrap.bundle.min.js"></script>
